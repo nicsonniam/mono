@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopBannerComponent } from './top-banner/top-banner.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ArtistListComponent } from './artist-list/artist-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopBannerComponent,
+    GalleryComponent,
+    ArtistListComponent
   ],
   imports: [
     BrowserModule,

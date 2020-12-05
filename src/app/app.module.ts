@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopBannerComponent } from './top-banner/top-banner.component';
@@ -16,7 +16,8 @@ import { ArtistListComponent } from './artist-list/artist-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IvyCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

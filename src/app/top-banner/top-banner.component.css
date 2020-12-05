@@ -1,12 +1,70 @@
-.banner{
-    backface-visibility: hidden;
-    background: #f8f8f8;
-    display: block;
-    height: 100%;
-    left:0;
-    overflow: hidden;
+.bannerdiv{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: black;
+    height: 80vh;
+} 
+.large{
+    background-image: url('/assets/img/banner-large.jpg');
+} 
+.medium{
+    background-image: url('/assets/img/banner-medium.jpg');
+}
+.bannertitle{
+    color: white;
+    font-weight: bold;
+}
+.titlelarge{
+    font-size: 70px;
+}
+.titlemedium{
+    font-size: 40px;
+}
+.titlemedium{
+    font-size: 30px;
+}
+.bannersmalltext{
+    color: white;
+}
+.smallertext{
+    font-size: 12px;
+}
+.featuredArtists{
     position: absolute;
-    top:0;
-    transform: translate3d(0,0,0);
+    top: 20%;
+    right: 20%;
+    bottom: 15%;
+    width: 330px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:50% 50%;
+    max-height: 300px;
+}
+.fullwidthcontainer{
     width: 100%;
+}
+.readmore {
+    background-color: #F37920; 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.splitbanner{
+    background-color: black;
+}
+.splittablet{
+    padding: 30px 10px 0px 15px;
+}
+.splitmobile{
+    padding: 20px; 
+    text-align: center; 
 }

@@ -1,9 +1,56 @@
-<picture class="banner">
-    <source media="(min-width: 1921px)" srcset="assets/img/banner-large-wide.jpg">
-    <source media="(min-width: 1440px)" srcset="assets/img/banner-large.jpg">
-    <source media="(min-width: 1200px) and (max-width: 1439px)" srcset="assets/img/banner-medium.jpg">
-    <source media="(min-width: 996px) and (max-width: 1199px)" srcset="assets/img/banner-medium-1.jpg">
-    <source media="(min-width: 768px) and (max-width: 995px)" srcset="assets/img/banner-medium-2.jpg">
-    <source media="(max-width: 767px)" srcset="assets/img/banner-small.jpg">   
-    <img alt="Featured Artists" data-lazyload="" src="assets/img/banner-large.jpg" class="bannerimg">                     
-</picture>
+<div *ngIf="innerWidth>1579" class="fullwidthcontainer"> <!--desktop-->
+    <div class="bannerdiv large">
+        <div class="featuredArtists">
+            <h2 class="bannertitle titlelarge">FEATURED ARTISTS</h2>
+            <p class="bannersmalltext">Grammy nominated indie band Sinside talk about their latest album. </p>
+            <button class="readmore">READ MORE</button>
+        </div> 
+    </div>
+    <div style="padding: 50px;" class="splitbanner splitmobile">
+        <h2 class="bannertitle titlelarge">#MONOCREATORS #GOPLAY</h2>
+    </div>
+</div>
+<div *ngIf="innerWidth<1580 && innerWidth>905" class="fullwidthcontainer"> <!--desktop/ipadpro-->
+    <div>
+        <div class="bannerdiv medium">
+            <div class="featuredArtists">
+                <h2 class="bannertitle titlelarge">FEATURED ARTISTS</h2>
+                <p class="bannersmalltext">Grammy nominated indie band Sinside talk about their latest album. </p>
+                <button class="readmore">READ MORE</button>
+            </div> 
+        </div>
+    </div>
+    <div style="padding: 50px;" class="splitbanner splitmobile">
+    <h2 class="bannertitle titlelarge">#MONOCREATORS #GOPLAY</h2>
+    </div>
+</div>
+<div *ngIf="innerWidth<906 && innerWidth>767" class="fullwidthcontainer"> <!--ipad-->
+    <div class="wrapper">
+        <div>
+            <img src="/assets/img/banner-medium-2.jpg">
+        </div>
+        <div class="splitbanner splittablet">
+            <h2 class="bannertitle titlemedium">FEATURED ARTISTS</h2>
+            <p class="bannersmalltext smallertext">Grammy nominated indie band Sinside talk about their latest album. </p>
+            <button class="readmore">READ MORE</button>
+        </div> 
+    </div>
+    <div style="padding: 30px;" class="splitbanner splitmobile">
+        <h2 class="bannertitle titlemedium">#MONOCREATORS #GOPLAY</h2>
+    </div>
+</div>
+<div *ngIf="innerWidth<768" class="fullwidthcontainer"> <!--mobile-->
+    <div >
+        <img src="/assets/img/banner-small.jpg">
+    </div>
+    <div class="splitbanner splitmobile">
+        <h2 class="bannertitle titlesmall">FEATURED ARTISTS</h2>
+        <p class="bannersmalltext smallertext">Grammy nominated indie band Sinside talk about their latest album. </p>
+        <button class="readmore">READ MORE</button>
+    </div>
+    <div style="padding: 30px;" class="splitbanner splitmobile">
+        <h2 class="bannertitle titlesmall">#MONOCREATORS #GOPLAY</h2>
+    </div> 
+</div>
+
+

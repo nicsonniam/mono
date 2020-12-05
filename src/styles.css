@@ -7,6 +7,21 @@
     height: 100vh;
     box-sizing: border-box;
 }
+#h1{
+    line-height: 90%;
+}
+div{
+    display: block;
+}
 img{
     max-width: 100%;
+}
+/* @media print, screen and (min-width: 48em){
+    body{
+        overflow-y: scroll;
+    }
+} */
+body{
+    min-width: 320px;
+    overflow-x: hidden;
 }

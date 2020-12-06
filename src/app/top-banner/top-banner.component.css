@@ -8,11 +8,11 @@
 } 
 .large{
     /* background-image: url('/assets/img/banner-large.png'); */
-    background-image: url('https://nicsonniam.github.io/assets/img/banner-large.png');  
+    background-image: url('https://nicsonniam.github.io/mono/assets/img/banner-large.png');  
 } 
 .medium{
     /* background-image: url('/assets/img/banner-medium.png'); */
-    background-image: url('https://nicsonniam.github.io/assets/img/banner-medium.png');
+    background-image: url('https://nicsonniam.github.io/mono/assets/img/banner-medium.png');
 }
 .bannertitle{
     color: white;

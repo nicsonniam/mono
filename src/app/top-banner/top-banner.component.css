@@ -47,6 +47,7 @@
 }
 .fullwidthcontainer{
     width: 100%;
+    max-width: 100%;
 }
 .readmore {
     background-color: #F37920; 

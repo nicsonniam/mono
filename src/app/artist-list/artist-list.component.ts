@@ -8,12 +8,14 @@ import { Component, HostListener, OnInit } from '@angular/core';
 export class ArtistListComponent implements OnInit {
   innerWidth: number;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
     this.innerWidth = window.innerWidth;
     console.log(this.innerWidth);
   }
+
   @HostListener('window:resize', ['$event'])
     onResize(event) {
     this.innerWidth = window.innerWidth;

@@ -7,12 +7,12 @@
     height: 80vh;
 } 
 .large{
-    /* background-image: url('/assets/img/banner-large.png'); */
-    background-image: url('https://nicsonniam.github.io/mono/assets/img/banner-large.png');  
+    /* background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('/assets/img/banner-large.png'); */
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url('https://nicsonniam.github.io/mono/assets/img/banner-large.png');  
 } 
 .medium{
-    /* background-image: url('/assets/img/banner-medium.png'); */
-    background-image: url('https://nicsonniam.github.io/mono/assets/img/banner-medium.png');
+    /* background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('/assets/img/banner-medium.png'); */
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url('https://nicsonniam.github.io/mono/assets/img/banner-medium.png');
 }
 .bannertitle{
     color: white;
@@ -59,6 +59,9 @@
     font-size: 15px;
     font-weight: bold;
     border-radius: 3px;
+}
+.readmore:hover{
+    background-color: #D15F0B; 
 }
 .splitbanner{
     background-color: black;

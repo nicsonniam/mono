@@ -1,0 +1,31 @@
+.artistlistfull{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5em;
+    padding-bottom: 15px;
+}
+.artistlisttablet{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5em;
+    padding-bottom: 15px;
+}
+.artistlistmobile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5em;
+    padding-bottom: 15px; 
+}
+.artistlistcontainer{
+    max-width: 115vh;
+    text-align: left;
+    margin: auto;
+    padding: 40px 15px 40px 15px;
+}
+.artistlistletter{
+    font-weight: bold;
+    color: #F37920;
+}
+.artistlistinner{
+    padding:0px 15px 0px 15px;
+}

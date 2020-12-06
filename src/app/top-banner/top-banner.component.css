@@ -7,10 +7,10 @@
     height: 80vh;
 } 
 .large{
-    background-image: url('/assets/img/banner-large.png');
+    background-image: url('/banner-large.png');
 } 
 .medium{
-    background-image: url('/assets/img/banner-medium.png');
+    background-image: url('/banner-medium.png');
 }
 .bannertitle{
     color: white;

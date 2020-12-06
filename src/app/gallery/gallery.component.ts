@@ -12,11 +12,11 @@ export class GalleryComponent implements OnInit {
 
   ngOnInit(): void {
     this.innerWidth = window.innerWidth;
-    console.log(this.innerWidth);
+   /*  console.log(this.innerWidth); */
   }
   @HostListener('window:resize', ['$event'])
     onResize(event) {
     this.innerWidth = window.innerWidth;
-    console.log(this.innerWidth);
+    /* console.log(this.innerWidth); */
   }
 }

@@ -7,10 +7,12 @@
     height: 80vh;
 } 
 .large{
-    background-image: url('/banner-large.png');
+    /* background-image: url('/assets/img/banner-large.png'); */
+    background-image: url('https://nicsonniam.github.io/assets.img/banner-large.png');  
 } 
 .medium{
-    background-image: url('/banner-medium.png');
+    /* background-image: url('/assets/img/banner-medium.png'); */
+    background-image: url('https://nicsonniam.github.io/assets.img/banner-medium.png');
 }
 .bannertitle{
     color: white;
